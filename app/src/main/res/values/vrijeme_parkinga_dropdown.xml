@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vrijeme_parkinga_dropdown">
+        <item>Odaberi vrijeme parkinga</item>
+        <item>30 minuta</item>
+        <item>1 sat</item>
+        <item>2 sata</item>
+        <item>3 sata</item>
+        <item>1 dan</item>
+    </string-array>
+    
+</resources>

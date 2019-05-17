@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ba.sum.fpmoz.m_parking">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="@string/test"
+        android:icon="@mipmap/parking_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/parking_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory">
+        <activity android:name=".Potvrdi_email"></activity>
+        <activity android:name=".Korisnicki_podaci_aktivnost" />
+        <activity
+            android:name=".Pocetna_aktivnost"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Registracija_aktivnost" />
+        <activity
+            android:name=".Prijava_aktivnost"
+            android:theme="@style/AppTheme.pocetna_tema_kreirana">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme.tema_za_crop" /> <!-- optional (needed if default theme has no action bar) -->
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="ocr" />
+    </application>
+
+</manifest>

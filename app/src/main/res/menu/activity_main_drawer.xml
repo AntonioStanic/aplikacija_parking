@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pocetna"
+            android:icon="@drawable/ic_home"
+            android:title="Početna" />
+        <item
+            android:id="@+id/slikaj_i_plati"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Slikaj i plati" />
+        <item
+            android:id="@+id/slikaj_i_provjeri"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Slikaj i provjeri" />
+        <item
+            android:id="@+id/galerija"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galerija" />
+        <item
+            android:id="@+id/napisi_i_plati"
+            android:icon="@drawable/ic_pen"
+            android:title="Napiši i plati" />
+        <item
+            android:id="@+id/napisi_i_provjeri"
+            android:icon="@drawable/ic_pen"
+            android:title="Napiši i provjeri" />
+
+    </group>
+
+    <item android:title="Općenito">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/postavke"
+                android:icon="@drawable/ic_settings"
+                android:title="Postavke" />
+            <item
+                android:id="@+id/podijeli"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Podijeli" />
+            <item
+                android:id="@+id/o_aplikaciji"
+                android:icon="@drawable/ic_info"
+                android:title="O aplikaciji" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
