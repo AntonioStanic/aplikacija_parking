@@ -25,7 +25,7 @@ public class Podijeli_fragment extends Fragment {
 
         String poruka = " Ukoliko želite koristiti mobilnu aplikaciju \"m-parking\"" +
                 " molim da kliknete na link koji se nalazi ispod.. \n" +
-                " https://trgovinaplay.m-parking.apk \n" +
+                " https://play.google.com/store/apps/details?id=ba.sum.fpmoz.m_parking\n" +
                 " VELIKO HVALA, m-parking team ";
         Intent shareText = new Intent(android.content.Intent.ACTION_SEND);
         shareText .setType("text/plain");
@@ -39,7 +39,7 @@ public class Podijeli_fragment extends Fragment {
                 vibrator.vibrate(100);
                 String poruka = " Ukoliko želite koristiti mobilnu aplikaciju \"m-parking\"" +
                         " molim da kliknete na link koji se nalazi ispod.. \n" +
-                        " https://trgovinaplay.m-parking.apk \n" +
+                        " https://play.google.com/store/apps/details?id=ba.sum.fpmoz.m_parking \n" +
                         " VELIKO HVALA, m-parking team ";
                 Intent shareText = new Intent(android.content.Intent.ACTION_SEND);
                 shareText .setType("text/plain");
